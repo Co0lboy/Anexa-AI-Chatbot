@@ -1,0 +1,15 @@
+# Ignore Java Build files
+**/target/
+**/.idea/
+**/*.class
+**/.mvn/
+**/*.jar
+
+# Ignore React Build files
+**/node_modules/
+**/build/
+.env
+.DS_Store
+
+# CRITICAL: IGNORE CREDENTIALS
+**/src/main/resources/application.properties
